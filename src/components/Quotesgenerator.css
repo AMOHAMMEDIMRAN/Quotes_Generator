@@ -48,3 +48,15 @@
     color: #ccd0cf;
     text-decoration: none;
 }
+@media only screen and (min-width: 320px) {
+    body{
+        padding: 0 10px;
+    }
+    .container{
+        width: 100%;
+    }
+    .bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+  }
